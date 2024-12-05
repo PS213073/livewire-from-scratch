@@ -5,11 +5,12 @@ use Livewire\Component;
 
 class Greeter extends Component
 {
-    public $name = 'Hoshang';
+    public $name = '';
+    public $greeting = '';
 
-    public function changeName($newName)
+    public function changeName()
     {
-        $this->name = $newName;
+
     }
     public function render()
     {
